@@ -1,0 +1,37 @@
+{
+  "name": "character-ai-alternatives",
+  "version": "1.0.0",
+  "description": "An open-source project providing alternatives to Character AI with customizable chatbot frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "character-ai",
+    "chatbot",
+    "ai",
+    "alternatives",
+    "nlp",
+    "machine-learning"
+  ],
+  "author": "PaulFriatshu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.10.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.48.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
